@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&family=Source+Code+Pro:wght@200;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    @apply bg-black overflow-hidden font-mon
+   
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #61656b00;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    width: 2px;
+    height: 2px;
+    background: #232b36;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #20212900;
+}
+
+
+.ani {
+    animation: ani 1s infinite alternate-reverse;
+}
+
+.banner{
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+@keyframes ani {
+    0%{
+        opacity: 60%;
+    }
+    100%{
+        opacity: 10%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+}
+
+/* Track */
+.navbar::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #61656b00;
+}
+
+/* Handle */
+.navbar::-webkit-scrollbar-thumb {
+    width: 1px;
+    height: 1px;
+    background: #232b3600;
+}
+
+/* Handle on hover */
+.navbar::-webkit-scrollbar-thumb:hover {
+    background: #20212900;
+}
